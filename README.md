@@ -14,15 +14,15 @@ The test set contains attack types that are not present in the training set.
 5. Evaluation on the separate KDDTest+ set: precision, recall, F1, confusion matrix
 
 ## Results
-- Best model: <naam daalo>
-- Accuracy: <value daalo>
-- Attack F1: <value daalo>
+- Best model: Decision Tree
+- Accuracy: 0.78
+- Attack F1: 0.777252
 
-## Key Insights
-- <Cell 6, 7, 12 ke graphs dekh ke 2-3 lines likh>
 
 ## How to run
 pip install -r requirements.txt
 cd src
 python train_model.py
 python predict.py
+
+INTERN ID:-CITS9194
